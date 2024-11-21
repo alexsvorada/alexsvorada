@@ -1,16 +1,23 @@
-## Hi there 👋
+```typescript
+import type { Myself } from '@/types.ts'
 
-<!--
-**alexsvorada/alexsvorada** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+(): Myself => ({
+  greeting: '👋 Welcome to my profile.',
 
-Here are some ideas to get you started:
+  personal: {
+    name: '🧑‍💻 Alex Svorada',
+    title: '⚡ Fullstack Developer',
+    location: '🌍 Prague, CZ'
+  },
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+  stack: {
+    frameworks: ['💚 Nuxt.js/Vue.js', '🚀 Laravel'],
+    languages: ['💙 TypeScript', '🐘 PHP'],
+  },
+
+  contact: {
+    email: '📨 alex@svorada.eu',
+    linkedin: '💼 linkedin.com/in/alexsvorada'
+  }
+})
+```
