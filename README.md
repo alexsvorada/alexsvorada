@@ -13,6 +13,7 @@ import type { Myself } from '@/types.ts'
   stack: {
     frameworks: ['💚 Nuxt.js/Vue.js', '🚀 Laravel'],
     languages: ['💙 TypeScript', '🐘 PHP'],
+    other: ['🎨 TailwindCSS', '🐋 Docker', '🗄️ SQL', '📦 Git']
   },
 
   contact: {
