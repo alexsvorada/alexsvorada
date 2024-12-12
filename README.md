@@ -1,6 +1,5 @@
 ```typescript
-import type { Myself } from '@/types.ts'
-;(): Myself => ({
+export default defineAbout({
 	greeting: '👋 Welcome to my profile.',
 
 	personal: {
@@ -10,7 +9,7 @@ import type { Myself } from '@/types.ts'
 	},
 
 	stack: {
-		frameworks: ['😻 NestJS', '💚 Nuxt.js/Vue.js'],
+		frameworks: ['💚 Nuxt.js/Vue.js', '😻 NestJS'],
 		languages: ['💙 TypeScript', '🐘 PHP', '☕ Java'],
 		other: ['🎨 TailwindCSS', '🐋 Docker', '🗄️ SQL', '📦 Git'],
 	},
