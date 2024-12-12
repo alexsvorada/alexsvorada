@@ -1,3 +1,23 @@
-hello there <img src="https://github.com/images/mona-whisper.gif" height="50">
+```typescript
+import type { Myself } from '@/types.ts'
+;(): Myself => ({
+	greeting: '👋 Welcome to my profile.',
 
-learning php+laravel, js+svelte and go for future adventures!
+	personal: {
+		name: '🧑‍💻 Alex Svorada',
+		title: '⚡ Fullstack Developer',
+		location: '🌍 Prague, CZ',
+	},
+
+	stack: {
+		frameworks: ['😻 NestJS', '💚 Nuxt.js/Vue.js'],
+		languages: ['💙 TypeScript', '🐘 PHP', '☕ Java'],
+		other: ['🎨 TailwindCSS', '🐋 Docker', '🗄️ SQL', '📦 Git'],
+	},
+
+	contact: {
+		email: '📨 alex@svorada.eu',
+		linkedin: '💼 linkedin.com/in/alexsvorada',
+	},
+})
+```
