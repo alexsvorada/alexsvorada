@@ -9,7 +9,7 @@ export default defineAbout({
 	},
 
 	stack: {
-		frameworks: ['💚 Nuxt.js/Vue.js', '😻 NestJS'],
+		frameworks: ['💚 Nuxt.js/Vue.js'],
 		languages: ['💙 TypeScript', '🐘 PHP', '☕ Java'],
 		other: ['🎨 TailwindCSS', '🐋 Docker', '🗄️ SQL', '📦 Git'],
 	},
