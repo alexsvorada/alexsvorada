@@ -1,22 +1,26 @@
-```typescript
-export default defineAbout({
-	greeting: '👋 Welcome to my profile.',
+```php
+<?php
 
-	personal: {
-		name: '🧑‍💻 Alex Svorada',
-		title: '⚡ Fullstack Developer',
-		location: '🌍 Prague, CZ',
-	},
+namespace github\users\alexsvorada;
 
-	stack: {
-		frameworks: ['💚 Nuxt.js/Vue.js'],
-		languages: ['💙 TypeScript', '🐘 PHP', '☕ Java', '🐍 Python'],
-		other: ['🤖 Aider', '🎨 TailwindCSS', '🐋 Docker', '🗄️ SQL', '📦 Git'],
-	},
+class Profile {
+    public string $greeting = '👋 Welcome to my profile.';
 
-	contact: {
-		email: '📨 alex@svorada.eu',
-		linkedin: '💼 linkedin.com/in/alexsvorada',
-	},
-})
+    public array $personal = [
+        "name"     => '🧑‍💻 Alex Svorada',
+        "title"    => '⚡ Fullstack Developer',
+        "location" => '🌍 Prague, CZ',
+    ];
+
+    public array $stack = [
+        "frameworks" => ['🚀 Laravel', '🖤 Next.js'],
+        "languages"  => ['🐘 PHP', '💙 TypeScript', '🐍 Python'],
+        "other"      => ['🤖 Cursor', '🎨 TailwindCSS', '🐋 Docker', '🗄️ SQL', '📦 Git'],
+    ];
+
+    public array $contact = [
+        "email"    => '📨 alex@svorada.eu',
+        "linkedin" => '💼 linkedin.com/in/alexsvorada',
+    ];
+}
 ```
