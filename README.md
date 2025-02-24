@@ -13,7 +13,7 @@ class Profile {
     ];
 
     public array $stack = [
-        "frameworks" => ['🚀 Laravel', '🖤 Next.js'],
+        "frameworks" => ['🐦‍⬛ EspoCRM'],
         "languages"  => ['🐘 PHP', '💙 TypeScript', '🐍 Python'],
         "other"      => ['🤖 Cursor', '🎨 TailwindCSS', '🐋 Docker', '🗄️ SQL', '📦 Git'],
     ];
