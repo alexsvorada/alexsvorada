@@ -14,7 +14,7 @@ class Profile {
 
     public array $stack = [
         "frameworks" => ['🐦‍⬛ EspoCRM'],
-        "languages"  => ['🐘 PHP', '💙 TypeScript', '🐍 Python'],
+        "languages"  => ['🐘 PHP', '⚡ JavaScript', '☕ Java'],
         "other"      => ['🤖 Cursor', '🎨 TailwindCSS', '🐋 Docker', '🗄️ SQL', '📦 Git'],
     ];
 
