@@ -8,11 +8,11 @@ class Profile {
 
     public array $personal = [
         "name"     => '🧑‍💻 Alex Svorada',
-        "title"    => '⚡ Fullstack Developer',
+        "title"    => '⚡ Fullstack Software Developer',
         "location" => '🌍 Prague, CZ',
     ];
 
-    public array $stack = [
+    public array $skills = [
         "frameworks" => ['🐦‍⬛ EspoCRM'],
         "languages"  => ['🐘 PHP', '⚡ JavaScript', '☕ Java'],
         "other"      => ['🤖 Cursor', '🐋 Docker', '🗄️ SQL', '📦 Git'],
